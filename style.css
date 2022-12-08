@@ -1,0 +1,45 @@
+body {
+    color: white;
+    background: black !important;
+  }
+  .container {
+     margin-top: 50px;
+  }
+  .span {
+    /*border: 1px solid white;*/
+  }
+  .text-center {
+    margin-top: 50px;
+  }
+  .pic {
+    background-size: contain;
+  }
+  .well {
+    /*border: 1px solid white;*/
+    /*height: 15em;*/
+    background: url('./assets/img/frame.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  .message {
+    padding: 70px 75px;
+    color: #a28928; 
+    font-family: Fixed, monospace;
+  }
+  button {
+    margin-top: -80px;
+    cursor: pointer;
+  }
+  .btn-danger,
+  .btn-danger:focus{
+    background-color: #9c000c;
+    color: black;
+    border: 1px solid black;
+    font-family: Fixed, monospace;
+    
+  }
+  .btn-danger:hover,
+  .btn-danger:visited{
+    background-color: black;
+    color: #a28928;
+    border: 1px solid #a28928;
+  }
