@@ -1,45 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 body {
     color: white;
-    background: black !important;
-  }
-  .container {
-     margin-top: 50px;
-  }
-  .span {
-    /*border: 1px solid white;*/
-  }
-  .text-center {
+    min-height: 100vh;
+    overflow: hidden; 
+    background: #0c0c0c !important;
+}
+.container {
     margin-top: 50px;
-  }
-  .pic {
+}
+.text-center {
+    margin-top: 50px;
+}
+.pic {
+    margin-top: auto;
+    margin-bottom: auto;
     background-size: contain;
-  }
-  .well {
-    /*border: 1px solid white;*/
-    /*height: 15em;*/
+}
+.pic img {
+    width: 300px;
+}
+.well {
     background: url('./assets/img/frame.png') no-repeat;
     background-size: 100% 100%;
-  }
-  .message {
+}
+.message {
     padding: 70px 75px;
     color: #a28928; 
     font-family: Fixed, monospace;
-  }
-  button {
-    margin-top: -80px;
+}
+
+a {
+    position: relative;
+    padding: 20px 50px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 40px;
     cursor: pointer;
-  }
-  .btn-danger,
-  .btn-danger:focus{
-    background-color: #9c000c;
-    color: black;
-    border: 1px solid black;
-    font-family: Fixed, monospace;
-    
-  }
-  .btn-danger:hover,
-  .btn-danger:visited{
-    background-color: black;
+    margin: auto;
+}
+  
+a span {
+    position: relative;
     color: #a28928;
-    border: 1px solid #a28928;
-  }
+    font-size: 20px;
+    font-family: Fixed, monospace;
+    z-index: 1;
+}
+  
+a .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #6e0202;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    transition: .5s;
+}
+  
+a .liquid::after,
+a .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #000;
+}
+  
+a .liquid::before { 
+    border-radius: 45%;
+    background: rgba(20, 20, 20, 1);
+    animation: animate 5s linear infinite;
+}
+  
+a .liquid::after {
+    border-radius: 40%;
+    background: rgba(20, 20, 20, .5);
+    animation: animate 10s linear infinite;
+}
+  
+a:hover .liquid{
+    top: -120px;
+}
+  
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -75%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -75%) rotate(360deg);
+    }
+}
+

@@ -12,7 +12,7 @@ const quotes = [
   [
     'Newscaster',
     "[to the crazy Malkavian character, through the TV set] Police don't have any suspects at this time, but they're pretty sure that it was you.",
-    'https://s016.radikal.ru/i336/1706/7e/4a3767d8ec1b.png'
+    './assets/img/newcaster_on_tv.png'
   ],
   [
     'Pisha',
@@ -22,12 +22,12 @@ const quotes = [
   [
     'Smiling Jack',
     "...Blood! It's your new leg of lamb, your new champagne, your new fucking heroin!", 
-    'https://s018.radikal.ru/i504/1706/5f/4e5af4513c54.png'
+    './assets/img/jack.jpg'
   ],
   [
     'Jeanette',
     'What all suede kittens do... on hands and knees, you lap up the milk of me... and we purr, kitten, like dragonflies buzzing around frog bellies.',
-    'https://s42.radikal.ru/i096/1706/82/841845b67292.png'
+    './assets/img/jeanette2.jpg'
   ],
   [
     'Andrei',
@@ -42,7 +42,7 @@ const quotes = [
   [
     'Damsel',
     "No, no more questions! Everytime I talk to you I just wanna smack you! It's like talking to a brick wall you wanna take down with a sledge hammer!",
-    'https://s001.radikal.ru/i193/1706/78/b210682ecd62.png'
+    './assets/img/damsel.png'
   ],
   [
     'Fat Larry',
