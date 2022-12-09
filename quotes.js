@@ -17,7 +17,7 @@ const quotes = [
   [
     'Pisha',
     'Real terror is not the sight of death, it is the fear of death. What is the fear of death? Terror of the unknown. Is it these eyes you peer into? No, I am not the unknown. You an I are closer kin than you and it were.',
-    './assets/img/pisha.jpg'
+    './assets/img/pisha.png'
   ],
   [
     'Smiling Jack',
@@ -27,7 +27,7 @@ const quotes = [
   [
     'Jeanette',
     'What all suede kittens do... on hands and knees, you lap up the milk of me... and we purr, kitten, like dragonflies buzzing around frog bellies.',
-    './assets/img/jeanette2.jpg'
+    './assets/img/jeanette2.png'
   ],
   [
     'Andrei',
@@ -37,7 +37,7 @@ const quotes = [
   [
     'Beckett',
     "It's not that I don't love walking into the heart of danger to curry favor with the local magistrate of the hour, but... actually, that's exactly it.",
-    './assets/img/beckett.jpg'
+    './assets/img/beckett.png'
   ],
   [
     'Damsel',
